@@ -1,0 +1,63 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  row-gap: 50px;
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+.row {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ques {
+  display: flex;
+  justify-content: space-between;
+  /* column-gap: 5px;
+  align-items: center; */
+  width: 50%;
+  align-items: center;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  align-items: center;
+  width: 50%;
+}
+
+.optionsAmount {
+  width: 80%;
+  border: 2px solid white;
+  padding: 5px;
+}
+.optionsNumber {
+  width: 42px;
+  padding: 5px;
+}
+
+.saveBtn {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 600px;
+  color: white;
+}
+
+.saveBtn:hover,
+.saveBtn:active {
+  border: 1px solid #f0c3f1;
+}

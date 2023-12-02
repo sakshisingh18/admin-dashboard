@@ -1,0 +1,26 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 40px;
+}
+.input {
+  padding: 10px 5px;
+  width: 595px;
+}
+
+.loginBtn {
+  font-size: 16px;
+  border: 1px solid #6741d9;
+  padding: 10px;
+  border-radius: 10px;
+  width: 600px;
+  background-color: #6741d9;
+  color: white;
+}
+
+.pTag {
+  font-size: 16px;
+  text-align: center;
+}
